@@ -1,0 +1,20 @@
+# DESIGN Index
+
+Map of all design documents in this directory, organised by category. Add new documents here when they land — un-indexed documents are invisible.
+
+## Process and discipline
+
+- **[documentation-structure.md](documentation-structure.md)** — what goes in CLAUDE.md vs README.md vs DESIGN/, conventions for new design documents.
+- **[progress.md](progress.md)** — running log of milestones with links to evidence.
+
+## Architecture and design
+
+- **[architecture.md](architecture.md)** — primary entry point for architectural questions. Library / consumer ownership boundary, the predicate + helper surface shape, agreed decisions, open `[TBD]` items.
+
+*(Focused docs may follow as work demands them — for example, the predicate contract, the walk_contents / bucket_contents helpers, or duck-typed visibility conventions. Add them here when they exist.)*
+
+## Archive
+
+Historical context, not authoritative. Material in `archive/` is preserved per the "don't delete; supersede" principle.
+
+*(The archive is currently empty. If substrate material later emerges — e.g. design notes carried over from FCM's in-game `utils/targeting/` package the library is generalising, or brainstorming captured before a decision crystallised — it lands here.)*
