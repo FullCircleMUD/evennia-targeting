@@ -6,7 +6,7 @@ Predicates are pure `(obj, caller) -> bool` functions; helpers walk `room.conten
 
 ## Status
 
-**Scaffold.** Repository scaffold is in place; library code is not yet written. The first predicates and helpers land when a real consumer (a port of FCM's in-game `utils/targeting/` package, decoupled from FCM-specific imports) is ready to depend on them. See [DESIGN/progress.md](DESIGN/progress.md) for the running milestone log.
+**Scaffold.** Repository scaffold is in place; library code is not yet written. The first predicates and helpers land when a real consumer (a port of FCM's in-game `utils/targeting/` package, decoupled from FCM-specific imports) is ready to depend on them. See [docs/progress.md](docs/progress.md) for the running milestone log.
 
 ## Is this for me?
 
@@ -29,8 +29,8 @@ pip install git+https://github.com/FullCircleMUD/evennia-targeting.git@main
 ## Learn more
 
 - **[CLAUDE.md](CLAUDE.md)** — load-bearing principles and orientation for working in the repository.
-- **[DESIGN/INDEX.md](DESIGN/INDEX.md)** — index of design documents.
-- **[DESIGN/architecture.md](DESIGN/architecture.md)** — the library / consumer ownership boundary, predicate + helper surface shape, agreed decisions, open questions.
+- **[docs/INDEX.md](docs/INDEX.md)** — index of design documents.
+- **[docs/architecture.md](docs/architecture.md)** — the library / consumer ownership boundary, predicate + helper surface shape, agreed decisions, open questions.
 
 ## License
 
