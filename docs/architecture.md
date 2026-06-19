@@ -4,7 +4,7 @@ High-level mapping of the targeting surface and the library / consumer boundary 
 
 ## Status
 
-**Scaffold.** Repository scaffold is in place per [LIBRARY_STANDARDS.md](../../LIBRARY_STANDARDS.md); no library code yet. This document captures the **shape the library is being extracted from**, not finalised architectural decisions. Sections marked `[TBD]` are explicit open questions to resolve before code lands.
+**Scaffold.** Repository scaffold is in place; no library code yet. This document captures the **shape the library is being extracted from**, not finalised architectural decisions. Sections marked `[TBD]` are explicit open questions to resolve before code lands.
 
 ## Guiding principle
 
